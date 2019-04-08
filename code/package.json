@@ -1,0 +1,51 @@
+{
+  "name": "eip-spec",
+  "version": "0.1.0",
+  "description": "Security Token Standard",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "scripts/test.sh 2> /dev/null",
+    "compile": "node_modules/.bin/truffle compile --optimize-runs 200",
+    "ganache-cli": "node_modules/.bin/ganache-cli -i 15 --gasLimit 8000000",
+    "migrate:local": "node_modules/.bin/truffle migrate --network=development --reset --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SecurityTokenStandard/EIP-Spec.git"
+  },
+  "keywords": [
+    "SecurityTokens",
+    "EIP",
+    "Securites",
+    "ERC1400",
+    "ERC1410",
+    "PFT",
+    "ERC20",
+    "ERC1066"
+  ],
+  "author": "Polymath Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SecurityTokenStandard/EIP-Spec/issues"
+  },
+  "homepage": "https://github.com/SecurityTokenStandard/EIP-Spec#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "openzeppelin-solidity": "^2.0.0",
+    "truffle-hdwallet-provider": "^1.0.3"
+  },
+  "devDependencies": {
+    "bignumber.js": "^8.0.1",
+    "ganache-cli": "6.1.8",
+    "solidity-coverage": "^0.5.11",
+    "truffle": "5.0.9",
+    "web3": "^1.0.0-beta.37"
+  }
+}
