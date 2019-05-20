@@ -1,0 +1,7 @@
+
+.vscode/*
+
+issues-*.json
+*_flat.sol
+
+code/
