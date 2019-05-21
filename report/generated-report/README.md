@@ -62,6 +62,7 @@ ________________
 
 * **Project Name: iFunded**
 * **Client Name: iEstate GmbH**
+* **Client Website: https://iestate.de/**
 * **Client Contact: Greg Freeman**
 * **Lead Auditor: Daniel Luca**
 * **Co-auditors: John Mardlin, Steve Marx, Martin Ortner**
