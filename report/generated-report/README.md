@@ -168,7 +168,7 @@ Opportunities for improvement:
 - Test coverage is incomplete. It is a good practice to have 100% code coverage. In particular it's useful to include negative test cases ensuring that undesirable actions are impossible.  
 - There are instances where contracts are split into a large number of files, making the inheritance tree difficult to reason about.
 - Both safety and efficiency can be improved by reviewing for the correct use of the keywords  `public` and `external` on functions.
-- A glossary of terms could be helfpul to people who come from a financial background, as well as blockchain developers trying to understand the securities terminology.
+- A glossary of terms could be helpful to people who come from a financial background, as well as blockchain developers trying to understand the securities terminology.
 - Code readability can be improved by adopting a consistent formatting scheme, particularly with respect to indentation and whitespace in function declaration. 
 
 ## 2 Issue Overview
@@ -1207,7 +1207,7 @@ A threat model was created during the audit process in order to analyze the atta
 
 ##### Owner
 
-The owner has some special permissions in the contracts that inherit `OwnableNonTransferable`. Permissions vary based on the contract. The owners can be different or the owners can have the same identity. The ownership is not transferrable, so taking care of the owner's private key is important. In case the private key is compromised, another instance of the contract has to be deployed, abandoning the old instance.
+The owner has some special permissions in the contracts that inherit `OwnableNonTransferable`. Permissions vary based on the contract. The owners can be different or the owners can have the same identity. The ownership is not transferable, so taking care of the owner's private key is important. In case the private key is compromised, another instance of the contract has to be deployed, abandoning the old instance.
 
 The owner can:
 - add and remove links to documents;
